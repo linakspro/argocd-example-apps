@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: private-repo-https
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  type: git
+  url: https://github.com/linakspro/argocd-example-apps.git
+  password: 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
+  username: argocd-token

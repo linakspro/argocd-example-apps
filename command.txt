@@ -1,3 +1,6 @@
 controlplane $ kubectl get secret private-repo-https -n argocd
 NAME                 TYPE     DATA   AGE
 private-repo-https   Opaque   4      2m23s
+
+
+github token creation steps: https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens

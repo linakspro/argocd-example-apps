@@ -1,0 +1,3 @@
+controlplane $ kubectl get secret private-repo-https -n argocd
+NAME                 TYPE     DATA   AGE
+private-repo-https   Opaque   4      2m23s
